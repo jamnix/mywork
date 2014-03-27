@@ -28,7 +28,7 @@ int main(int argc, char **argv)
         servaddr.sin_family = AF_INET;
 
         servaddr.sin_addr.s_addr = inet_addr(argv[1]);
-        servaddr.sin_port = htons(13);
+        servaddr.sin_port = htons(8000);
 
         if( connect(sockfd, (sockaddr*)&servaddr, sizeof(servaddr)) < 0)
         {
