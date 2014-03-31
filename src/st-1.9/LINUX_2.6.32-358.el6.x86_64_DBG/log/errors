@@ -1,0 +1,18 @@
+[27/Mar/2014:17:02:31] INFO: starting the server...
+[27/Mar/2014:17:02:31] INFO: process 0 (pid 5896): configuration loaded
+[27/Mar/2014:17:02:31] INFO: process 0 (pid 5896): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:02:31] INFO: process 1 (pid 5897): configuration loaded
+[27/Mar/2014:17:02:31] INFO: process 1 (pid 5897): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:02:31] INFO: process 2 (pid 5898): configuration loaded
+[27/Mar/2014:17:02:31] INFO: process 2 (pid 5898): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:02:31] INFO: process 3 (pid 5899): configuration loaded
+[27/Mar/2014:17:02:31] INFO: process 3 (pid 5899): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:58:28] INFO: starting the server...
+[27/Mar/2014:17:58:28] INFO: process 0 (pid 5976): configuration loaded
+[27/Mar/2014:17:58:28] INFO: process 0 (pid 5976): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:58:28] INFO: process 1 (pid 5977): configuration loaded
+[27/Mar/2014:17:58:28] INFO: process 1 (pid 5977): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:58:28] INFO: process 2 (pid 5978): configuration loaded
+[27/Mar/2014:17:58:28] INFO: process 2 (pid 5978): starting 8 threads on 127.0.0.1:8000
+[27/Mar/2014:17:58:28] INFO: process 3 (pid 5979): configuration loaded
+[27/Mar/2014:17:58:28] INFO: process 3 (pid 5979): starting 8 threads on 127.0.0.1:8000
