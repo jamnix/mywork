@@ -200,7 +200,7 @@ configure:5332: output
 0000000000000000 B some_variable
 configure:5339: result: BSD nm
 configure:5343: checking the maximum length of command line arguments
-configure:5473: result: 1966080
+configure:5473: result: 3932160
 configure:5490: checking whether the shell understands some XSI constructs
 configure:5500: result: yes
 configure:5504: checking whether the shell understands "+="
@@ -360,8 +360,8 @@ configure:12156: $? = 0
 configure:12173: result: none required
 configure:12181: checking for library containing clock_gettime
 configure:12212: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/cculh98v.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:35: undefined reference to `clock_gettime'
+/tmp/ccs50k09.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:35: undefined reference to `clock_gettime'
 collect2: ld returned 1 exit status
 configure:12212: $? = 1
 configure: failed program was:
@@ -512,8 +512,8 @@ configure:12348: checking for zlib.h
 configure:12348: result: yes
 configure:12364: checking for library containing inflateEnd
 configure:12395: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/ccnPVhDS.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:36: undefined reference to `inflateEnd'
+/tmp/ccsU7U3M.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:36: undefined reference to `inflateEnd'
 collect2: ld returned 1 exit status
 configure:12395: $? = 1
 configure: failed program was:
@@ -571,8 +571,8 @@ configure:12449: checking for openssl/bio.h
 configure:12449: result: yes
 configure:12465: checking for library containing SSL_new
 configure:12496: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/tmp/cc51ARAl.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:38: undefined reference to `SSL_new'
+/tmp/ccVL7GK8.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:38: undefined reference to `SSL_new'
 collect2: ld returned 1 exit status
 configure:12496: $? = 1
 configure: failed program was:
@@ -1499,8 +1499,8 @@ configure:13138: $? = 0
 configure:13138: result: yes
 configure:13138: checking for strlcpy
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/cckPaAuf.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:104: undefined reference to `strlcpy'
+/tmp/ccmgFggX.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:104: undefined reference to `strlcpy'
 collect2: ld returned 1 exit status
 configure:13138: $? = 1
 configure: failed program was:
@@ -1658,8 +1658,8 @@ configure:13138: $? = 0
 configure:13138: result: yes
 configure:13138: checking for arc4random
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccBlzSgF.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:115: undefined reference to `arc4random'
+/tmp/ccctOJnb.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:115: undefined reference to `arc4random'
 collect2: ld returned 1 exit status
 configure:13138: $? = 1
 configure: failed program was:
@@ -1784,8 +1784,8 @@ configure: failed program was:
 configure:13138: result: no
 configure:13138: checking for arc4random_buf
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccd8AdkM.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:115: undefined reference to `arc4random_buf'
+/tmp/cc4ZD90i.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:115: undefined reference to `arc4random_buf'
 collect2: ld returned 1 exit status
 configure:13138: $? = 1
 configure: failed program was:
@@ -1910,8 +1910,8 @@ configure: failed program was:
 configure:13138: result: no
 configure:13138: checking for issetugid
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/ccZ86WAU.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:115: undefined reference to `issetugid'
+/tmp/cc4qlrit.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:115: undefined reference to `issetugid'
 collect2: ld returned 1 exit status
 configure:13138: $? = 1
 configure: failed program was:
@@ -2094,8 +2094,8 @@ configure:13557: $? = 0
 configure:13557: result: yes
 configure:13641: checking for port_create
 configure:13641: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lrt  >&5
-/tmp/cc7gzimu.o: In function `main':
-/usr/local/mywork/libevent-2.0.21-stable/conftest.c:130: undefined reference to `port_create'
+/tmp/ccN6QKGj.o: In function `main':
+/usr/local/mywork/src/libevent-2.0.21-stable/conftest.c:130: undefined reference to `port_create'
 collect2: ld returned 1 exit status
 configure:13641: $? = 1
 configure: failed program was:
@@ -5325,6 +5325,7 @@ config.status:1230: creating include/Makefile
 config.status:1230: creating test/Makefile
 config.status:1230: creating sample/Makefile
 config.status:1230: creating config.h
+config.status:1411: config.h is unchanged
 config.status:1459: executing depfiles commands
 config.status:1459: executing libtool commands
 
@@ -5509,7 +5510,7 @@ lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*
 lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"\2", (void *) \&\2},/p'\'''
 lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \(lib[^ ]*\)$/  {"\2", (void *) \&\2},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"lib\2", (void *) \&\2},/p'\'''
 lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''
-lt_cv_sys_max_cmd_len=1966080
+lt_cv_sys_max_cmd_len=3932160
 lt_cv_to_host_file_cmd=func_convert_file_noop
 lt_cv_to_tool_file_cmd=func_convert_file_noop
 
@@ -5517,15 +5518,15 @@ lt_cv_to_tool_file_cmd=func_convert_file_noop
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/missing --run aclocal-1.11'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
 AMTAR='$${TAR-tar}'
 AR='ar'
-AUTOCONF='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/missing --run autoconf'
-AUTOHEADER='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/missing --run autoheader'
-AUTOMAKE='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/missing --run automake-1.11'
+AUTOCONF='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/missing --run autoconf'
+AUTOHEADER='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/missing --run autoheader'
+AUTOMAKE='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/missing --run automake-1.11'
 AWK='gawk'
 BUILD_CYGWIN_FALSE=''
 BUILD_CYGWIN_TRUE='#'
@@ -5579,7 +5580,7 @@ LIBTOOL_DEPS='./ltmain.sh'
 LIPO=''
 LN_S='ln -s'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/missing --run makeinfo'
+MAKEINFO='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/missing --run makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/bin/mkdir -p'
 NM='/usr/bin/nm -B'
@@ -5654,7 +5655,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /usr/local/mywork/libevent-2.0.21-stable/install-sh'
+install_sh='${SHELL} /usr/local/mywork/src/libevent-2.0.21-stable/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
